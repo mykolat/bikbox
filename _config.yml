@@ -1,5 +1,5 @@
 # Site settings
-title:
+title: Тайтл
 email:
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -9,20 +9,20 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
-owner:
-email:
-facebook_username:
+owner: овнер
+email: пошта
+facebook_username: 
 twitter_username:
 github_username:
 address:
-  - line:
-  - line:
+  - line: лайн1
+  - line: лайн2
   # Feel free to add more lines here 
-telephone:
-copyright:
+telephone: +380991234567
+copyright: Копірайт
 
 # API settings
-google_api_key:
+google_api_key: AIzaSyD9OEfuzdgiistCAij1-snTiensmauBv_E
 
 # Build settings
 markdown: kramdown
