@@ -1,11 +1,17 @@
-<aside class="call-to-action bg-primary">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <!-- <h3>The buttons below are impossible to resist.</h3> -->
-        <a href="#" class="btn btn-lg btn-light">Замовити</a>
-        <a href="#" class="btn btn-lg btn-dark">Ціни</a>
-      </div>
+<aside id="contact" class="call-to-action bg-primary">
+    <div class="container">
+        <div class="row text-center">
+            <h2>Контакти</h2>
+            <hr class="small">
+            <form action="post" data-sending="{{ site.text.contact.ajax.sending }}" data-sent="{{ site.text.contact.ajax.sent }}" data-submit="{{ site.text.contact.submit }}" data-error="{{ site.text.contact.ajax.error }}" data-email="{{ site.email }}"
+                class="center-block form-stacked">
+                <div class="col-md-6"> <input type="text" name="usrname" class="field-light" placeholder="{{ site.text.contact.name }}"></input> <input type="email" name="email" class="field-light" placeholder="{{ site.text.contact.email }}"></input> <input type="tel" name="phone"
+                        class="field-light" placeholder="{{ site.text.contact.phone }}"></input>
+                </div>
+                <div class="col-md-6"><textarea name="feedback" class="field-light" rows="5" placeholder="{{ site.text.contact.feedback }}"> </textarea> </div>
+                <!-- <input type="text" name="_gotcha" style="display:none" /> -->
+                <div class="col-md-12"><button type='submit' class="center-block btn btn-primary btn-lg">{{ site.text.contact.submit }}</button></div>
+            </form>
+        </div>
     </div>
-  </div>
 </aside>
