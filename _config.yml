@@ -9,16 +9,16 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
-owner: овнер
-email: пошта
-facebook_username: 
-twitter_username:
+owner: Богдан Шліхутка(BA)
+email: bohdan170194@gmail.com
+facebook_username: updelive
+vk_username: updelive
 github_username:
 address:
   - line: лайн1
   - line: лайн2
-  # Feel free to add more lines here 
-telephone: +380991234567
+  # Feel free to add more lines here
+telephone: +380999250006
 copyright: Копірайт
 
 # API settings
@@ -26,3 +26,21 @@ google_api_key: AIzaSyD9OEfuzdgiistCAij1-snTiensmauBv_E
 
 # Build settings
 markdown: kramdown
+
+text:
+  contact:
+    name:    'Як до вас звертатися?'
+    email:    'Поштова скринька'
+    phone:    'Номер телефону'
+    subject:  'Нове повідомлення'
+    submit:   'Відправити'
+    feedback:   'Відгук'
+    ajax:
+      sending:  'відпралення..'
+      sent:     'Відправлено'
+      error:    'Помилка'
+menu:
+  about: Залишити відгук
+  contact: Контакти
+  services: Переваги
+  portfolio: Інстаграм
