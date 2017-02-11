@@ -10,13 +10,13 @@ url: "" # the base hostname & protocol for your site
 
 # User setting
 owner: UpDelive
-email: mykola.tymchak@gmail.com
+email: UpDelive@gmail.com
 facebook_username: updelive
 vk_username: updelive
 github_username:
 address:
-  - line: 0631099920
-  - line: 0965198094
+  - line:
+  - line:
   # Feel free to add more lines here
 telephone: 0631099920
 copyright: UpDelive
@@ -40,7 +40,7 @@ text:
       sent:     'Відправлено'
       error:    'Помилка'
 menu:
-  about: Залишити відгук
+  about: Послуги
   contact: Контакти
   services: Переваги
   portfolio: Інстаграм
